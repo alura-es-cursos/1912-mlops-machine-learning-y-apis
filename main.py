@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import pickle
 
-modelo = pickle.load(open('modelo.pkl'),'rb')
+modelo = pickle.load(open('modelo.pkl','rb'))
 
 columnas = ['area','modelo','estacionamiento']
 
