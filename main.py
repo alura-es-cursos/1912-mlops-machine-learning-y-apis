@@ -13,8 +13,8 @@ columnas = ['area','modelo','estacionamiento']
 app = Flask(__name__) 
 
 from flask_basicauth import BasicAuth
-app.config['BASIC_AUTH_USERNAME'] = 'alvaro'
-app.config['BASIC_AUTH_PASSWORD'] = 'alura'
+app.config['BASIC_AUTH_USERNAME'] = '<tu nombre de usuario>'
+app.config['BASIC_AUTH_PASSWORD'] = '<tu password>'
 basic_auth = BasicAuth(app)
 
 @app.route('/')
